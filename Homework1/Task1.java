@@ -38,7 +38,7 @@ public class Task1 {
         }
         return h2;
     }
-    public StringBuilder inputHeight3(BufferedReader r) throws NumberFormatException, IOException {
+    public StringBuilder inputHeight3(BufferedReader r) throws IOException {
         StringBuilder h3 = new StringBuilder(r.readLine());
         try {
             Integer.parseInt(h3.toString());
